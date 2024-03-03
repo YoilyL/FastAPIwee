@@ -26,8 +26,8 @@ setuptools.setup(
     ],
     python_requires='>=3.6',
     install_requires=[
-        'fastapi==0.66.0',
-        'pydantic==1.8.2',
-        'peewee==3.14.4',
+        'fastapi',
+        'pydantic<2',
+        'peewee',
     ],
 )
